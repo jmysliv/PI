@@ -21,7 +21,7 @@ bool is_triangular(int** tab, int n) {
     return flag;
 
 }
-}
+
 
 int main() {
     int n;
@@ -37,3 +37,4 @@ int main() {
     printf(is_triangular(tab, n) ? "YES\n" : "NO\n");
 
     free(tab);
+}
